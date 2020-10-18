@@ -5,9 +5,9 @@ header, section, footer {
 }
 
 header {
-    padding-left: 478px;
-    padding-right: 478px;
     margin-bottom: 33px;
+    font-size: 0.9rem;
+    width: 98vw;
 }
 
 header, #c0, footer {
@@ -15,23 +15,38 @@ header, #c0, footer {
 }
 
 section {
-    padding: 200px 266px;
+    padding: 200px 0;
+    font-size: 1.2em;
 }
 
 #c0 {
-    padding: 200px 592px;
-    margin-bottom: 233px;        
+    padding: 15vh 0vw;
+    margin-bottom: 33px;
+    width: 98vw;
+}
+
+div {
+    width: 20%;
+    padding: 10px;
+    background-color: #0284fd;
+    color: white;
+    margin-left: 38.3vw;
 }
 
 #c1 {
-    margin-right: 35px;
+    margin-right: 2vw;
 }
 
-#c1, #c2, h3 {
-    display: inline;
+#c1, #c2 {
+    display: inline-block;
+    width: 47.4vw;
 }
 
 footer {
-    margin-top: 233px;
-    padding: 22px 605px;
+    margin-top: 33px;
+    padding: 22px 0;
+    width: 98vw;
+    font-size: 1.2rem;
 }
+
+
